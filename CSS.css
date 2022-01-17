@@ -112,10 +112,6 @@ ul {
     margin-left: 3%;
     background-color: white;
 }
-@font-face {
-    font-family: "Mimenu";
-    src: url("fa-solid-900.ttf");
-  }
 
 .footer2 {
     background-color: rgb(212, 132, 78);
@@ -124,49 +120,6 @@ ul {
     bottom: 0%;
   }
 
-  .macintosh:before {
-      content: "\e991";
-      font-family: "icomoon";
-      src: url("fonts/icomoon.eot?e991")
-  }
-
-  @font-face {
-    font-family: 'icomoon';
-    src:  url('fonts/icomoon.eot');
-    src:  url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-      url('fonts/icomoon.ttf') format('truetype'),
-      url('fonts/icomoon.woff') format('woff'),
-      url('fonts/icomoon.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-
-  .macintosh-music:before {
-    content: "\e911";
-  }
-  .Ipod-dice:before {
-    content: "\e915";
-  }
-  .Iphone-pacman:before {
-    content: "\e916";
-  }
-  .Apple-spades:before {
-    content: "\e917";
-  }
-  .Apple2-clubs:before {
-    content: "\e918";
-  }
-  .Ipad-diamonds:before {
-    content: "\e919";
-  }
-  
-  [data-icon]:before {
-    font-family: "icomoon";
-    content: attr(data-icon);
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
+  li {
+    list-style-type: katakana-iroha;
   }
